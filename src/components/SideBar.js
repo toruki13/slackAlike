@@ -33,17 +33,17 @@ function SideBar() {
         </SideBarInfo>
         <CreateIcon />
       </SideBarHeader>
-      <SideBarOption Icon={InsertCommentIcon} title='Threads' />
+      {/*  <SideBarOption Icon={InsertCommentIcon}  title='Threads' />
       <SideBarOption Icon={InboxIcon} title='Mention & reactions' />
       <SideBarOption Icon={DraftsIcon} title='Saved items' />
       <SideBarOption Icon={BookmarkBorderIcon} title='Channel browser' />
       <SideBarOption Icon={PeopleAltIcon} title='People & User groups' />
       <SideBarOption Icon={AppsIcon} title='Apps' />
       <SideBarOption Icon={FileCopyIcon} title='File browser' />
-      <SideBarOption Icon={ExpandLessIcon} title='Show less' />
-      <hr />
+      <SideBarOption Icon={ExpandLessIcon} title='Show less' /> */}
+     {/*  <hr />
       <SideBarOption Icon={ExpandMoreIcon} title='Channels' />
-      <hr />
+      <hr /> */}
       <SideBarOption Icon={AddIcon} addChannelOption title='Add Channels' />
 
       {channels?.docs.map((docs) => (
