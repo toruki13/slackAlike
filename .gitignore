@@ -10,9 +10,6 @@ firebase.js
 # testing
 /coverage
 
-# exclude everything
-/src/*
-/src/**
 # production
 /build
 
